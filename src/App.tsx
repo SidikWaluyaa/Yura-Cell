@@ -6,6 +6,7 @@ import { DualCategoryShowcase } from './components/DualCategoryShowcase';
 import { KenapaPilihYura } from './components/KenapaPilihYura';
 import { Footer } from './components/Footer';
 import { QuickOrderModal } from './components/QuickOrderModal';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
 export default function App() {
   const [orderModalOpen, setOrderModalOpen] = useState(false);
@@ -50,6 +51,9 @@ export default function App() {
         initialServiceId={selectedServiceId}
         onClose={() => setOrderModalOpen(false)}
       />
+
+      {/* Floating WhatsApp Chat Widget */}
+      <FloatingWhatsApp />
     </div>
   );
 }
