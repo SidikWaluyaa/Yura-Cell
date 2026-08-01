@@ -14,3 +14,17 @@
   background-image: radial-gradient(rgba(230, 0, 103, 0.04) 1.5px, transparent 1.5px);
   background-size: 24px 24px;
 }
+
+/* Custom CSS class untuk input obrolan WhatsApp melayang guna mencegah konflik linter IDE */
+.chat-input {
+  @apply flex-1 bg-slate-50 text-xs font-semibold text-slate-800 p-2.5 rounded-xl border border-slate-200 transition-all resize-none max-h-20;
+}
+.chat-input:hover {
+  @apply bg-slate-100/70;
+}
+.chat-input:focus {
+  @apply bg-white outline-hidden ring-2 ring-[#E60067]/30 border-[#E60067];
+}
+.chat-input::placeholder {
+  @apply text-slate-400;
+}

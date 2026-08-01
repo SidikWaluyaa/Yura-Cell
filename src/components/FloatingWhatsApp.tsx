@@ -153,7 +153,7 @@ export const FloatingWhatsApp: React.FC = () => {
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Ketik pesan Anda..."
               rows={1}
-              className="flex-1 bg-slate-50 hover:bg-slate-100/70 focus:bg-white text-xs font-semibold text-slate-800 placeholder-slate-400 p-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#E60067]/30 focus:border-[#E60067] transition-all resize-none max-h-20"
+              className="chat-input"
               onKeyDown={(e) => {
                 if (e.key === 'Enter' && !e.shiftKey) {
                   e.preventDefault();
