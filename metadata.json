@@ -1,0 +1,6 @@
+{
+  "name": "Yura Cell - Landing Page Konter Digital",
+  "description": "Landing page resmi Yura Cell - Konter pulsa, voucher, token listrik, top up game & e-wallet, payment point, dan layanan keuangan terpercaya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
